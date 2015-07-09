@@ -1,0 +1,23 @@
+{
+  "name": "nodeOpenAM",
+  "version": "1.0.0",
+  "description": "node wrapper to handle OpenAM actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:deepaknverma/nodeOpenAM.git"
+  },
+  "keywords": [
+    "Openam",
+    "IAM"
+  ],
+  "author": "Deepak Verma <info@deepakverma.com.au> (http://deepakverma.com.au)",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.55.0",
+    "errs": "^0.3.2"
+  }
+}
